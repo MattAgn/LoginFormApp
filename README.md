@@ -1,10 +1,6 @@
-# Joconde
+# Login Form App
 
-This app aims to be:
-
-- An example of state of the art app setup we use at BAM
-- A repository where our app setup documentation is tested
-- A repository that we can [clone](./joconde_clone.md) to quickly start a new project
+This app aims to be a demo app to showcase the power of the new [userEvent](https://callstack.github.io/react-native-testing-library/docs/user-event#clear) api for an article and formation at BAM
 
 ## Setup
 
