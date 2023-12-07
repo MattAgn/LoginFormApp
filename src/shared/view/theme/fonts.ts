@@ -1,32 +1,8 @@
-import type { FontSource } from 'expo-font';
-
-import {
-  FontStyle,
-  ParagraphFontType,
-  Fonts,
-  FontFamily,
-  fontFamilies,
-} from './fonts.types';
-
-export const fontFiles: Record<FontFamily, FontSource> = {
-  ['OpenSans-Bold']: require('./fonts/OpenSans-Bold.ttf'),
-  ['OpenSans-BoldItalic']: require('./fonts/OpenSans-BoldItalic.ttf'),
-  ['OpenSans-ExtraBold']: require('./fonts/OpenSans-ExtraBold.ttf'),
-  ['OpenSans-ExtraBoldItalic']: require('./fonts/OpenSans-ExtraBoldItalic.ttf'),
-  ['OpenSans-Italic']: require('./fonts/OpenSans-Italic.ttf'),
-  ['OpenSans-Light']: require('./fonts/OpenSans-Light.ttf'),
-  ['OpenSans-LightItalic']: require('./fonts/OpenSans-LightItalic.ttf'),
-  ['OpenSans-Medium']: require('./fonts/OpenSans-Medium.ttf'),
-  ['OpenSans-MediumItalic']: require('./fonts/OpenSans-MediumItalic.ttf'),
-  ['OpenSans-Regular']: require('./fonts/OpenSans-Regular.ttf'),
-  ['OpenSans-SemiBold']: require('./fonts/OpenSans-SemiBold.ttf'),
-  ['OpenSans-SemiBoldItalic']: require('./fonts/OpenSans-SemiBoldItalic.ttf'),
-} as const;
+import { FontStyle, Fonts, ParagraphFontType } from './fonts.types';
 
 const getTitleFont = (fontSize: number): FontStyle => ({
   fontSize,
   lineHeight: Math.round(fontSize * 1.3),
-  fontFamily: fontFamilies.openSansBold,
 });
 
 const getParagraphFonts = (
@@ -36,15 +12,12 @@ const getParagraphFonts = (
   return {
     regular: {
       ...base,
-      fontFamily: fontFamilies.openSansRegular,
     },
     italic: {
       ...base,
-      fontFamily: fontFamilies.openSansItalic,
     },
     bold: {
       ...base,
-      fontFamily: fontFamilies.openSansBold,
     },
   };
 };
