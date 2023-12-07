@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag Component renders the icon when it is passed as props 1`] = `"test"`;
+
+exports[`Tag Component renders the icon when it is passed as props 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    accessibilityRole="text"
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": true,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    style={
+      {
+        "alignItems": "center",
+        "alignSelf": "flex-start",
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#FF7E1D",
+        "borderRadius": 40,
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "opacity": 1,
+        "padding": 8,
+      }
+    }
+  >
+    <RNSVGSvgView
+      align="xMidYMid"
+      bbHeight="24"
+      bbWidth="24"
+      focusable={false}
+      height={24}
+      meetOrSlice={0}
+      minX={0}
+      minY={0}
+      style={
+        {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "flex": 0,
+          "height": 24,
+          "width": 24,
+        }
+      }
+      testID="cross-icon"
+      vbHeight={24}
+      vbWidth={24}
+      width={24}
+    >
+      <RNSVGGroup
+        fill={
+          {
+            "payload": 4278190080,
+            "type": 0,
+          }
+        }
+      >
+        <RNSVGPath
+          d="M12,10.9395 L18.2196699,4.71966991 C18.5125631,4.4267767 18.9874369,4.4267767 19.2803301,4.71966991 C19.5406796,4.98001944 19.5696073,5.38415604 19.3671133,5.67645825 L19.2803301,5.78033009 L13.0605,12 L19.2803301,18.2196699 C19.5732233,18.5125631 19.5732233,18.9874369 19.2803301,19.2803301 C19.0199806,19.5406796 18.615844,19.5696073 18.3235417,19.3671133 L18.2196699,19.2803301 L12,13.0605 L5.78033009,19.2803301 C5.48743687,19.5732233 5.01256313,19.5732233 4.71966991,19.2803301 C4.45932039,19.0199806 4.43039266,18.615844 4.63288674,18.3235417 L4.71966991,18.2196699 L10.9395,12 L4.71966991,5.78033009 C4.4267767,5.48743687 4.4267767,5.01256313 4.71966991,4.71966991 C4.98001944,4.45932039 5.38415604,4.43039266 5.67645825,4.63288674 L5.78033009,4.71966991 L12,10.9395 Z"
+          fill={
+            {
+              "payload": 4294934045,
+              "type": 0,
+            }
+          }
+          fillRule={0}
+          propList={
+            [
+              "fill",
+              "fillRule",
+            ]
+          }
+        />
+      </RNSVGGroup>
+    </RNSVGSvgView>
+    <Text
+      numberOfLines={0}
+      style={
+        {
+          "color": "#FF7E1D",
+          "fontFamily": "OpenSans-Bold",
+          "fontSize": 12,
+          "lineHeight": 18,
+          "textDecorationLine": "none",
+        }
+      }
+    >
+      test
+    </Text>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Tag Component renders the label 1`] = `"test"`;
+
+exports[`Tag Component renders the label 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    accessibilityRole="text"
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": true,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    style={
+      {
+        "alignItems": "center",
+        "alignSelf": "flex-start",
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#FF7E1D",
+        "borderRadius": 40,
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "opacity": 1,
+        "padding": 8,
+      }
+    }
+  >
+    <Text
+      numberOfLines={0}
+      style={
+        {
+          "color": "#FF7E1D",
+          "fontFamily": "OpenSans-Bold",
+          "fontSize": 12,
+          "lineHeight": 18,
+          "textDecorationLine": "none",
+        }
+      }
+    >
+      test
+    </Text>
+  </View>
+</RNCSafeAreaProvider>
+`;

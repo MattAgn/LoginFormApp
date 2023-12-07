@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch renders properly 1`] = `null`;
+
+exports[`Switch renders properly 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+  >
+    <View
+      accessibilityLabel="switch"
+      accessibilityRole="switch"
+      accessibilityState={
+        {
+          "checked": false,
+        }
+      }
+      accessible={true}
+      style={
+        {
+          "backgroundColor": undefined,
+          "borderColor": undefined,
+          "borderRadius": 20.5,
+          "borderWidth": 1,
+          "height": 41,
+          "justifyContent": "center",
+          "width": 74,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row-reverse",
+            "height": "100%",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "width": 10,
+            }
+          }
+        />
+        <Text
+          allowFontScaling={false}
+          layout={BaseAnimationMock {}}
+          numberOfLines={0}
+          style={
+            {
+              "color": undefined,
+              "fontFamily": "OpenSans-Regular",
+              "fontSize": 12,
+              "lineHeight": 18,
+              "textDecorationLine": "none",
+              "textTransform": "uppercase",
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "flex": 1,
+            }
+          }
+        />
+        <View
+          layout={BaseAnimationMock {}}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": undefined,
+              "borderColor": undefined,
+              "borderRadius": 15.5,
+              "borderWidth": 1,
+              "height": 31,
+              "justifyContent": "center",
+              "width": 31,
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "width": 5,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Switch renders properly 3`] = `null`;
+
+exports[`Switch renders properly 4`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+  >
+    <View
+      accessibilityLabel="switch"
+      accessibilityRole="switch"
+      accessibilityState={
+        {
+          "checked": true,
+        }
+      }
+      accessible={true}
+      style={
+        {
+          "backgroundColor": undefined,
+          "borderColor": undefined,
+          "borderRadius": 20.5,
+          "borderWidth": 1,
+          "height": 41,
+          "justifyContent": "center",
+          "width": 74,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "height": "100%",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "width": 10,
+            }
+          }
+        />
+        <Text
+          allowFontScaling={false}
+          layout={BaseAnimationMock {}}
+          numberOfLines={0}
+          style={
+            {
+              "color": undefined,
+              "fontFamily": "OpenSans-Regular",
+              "fontSize": 12,
+              "lineHeight": 18,
+              "textDecorationLine": "none",
+              "textTransform": "uppercase",
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "flex": 1,
+            }
+          }
+        />
+        <View
+          layout={BaseAnimationMock {}}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": undefined,
+              "borderColor": undefined,
+              "borderRadius": 15.5,
+              "borderWidth": 1,
+              "height": 31,
+              "justifyContent": "center",
+              "width": 31,
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "width": 5,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

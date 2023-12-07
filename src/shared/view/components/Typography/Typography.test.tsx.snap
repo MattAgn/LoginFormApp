@@ -1,0 +1,433 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography P1 bold matches snapshot 1`] = `"hello"`;
+
+exports[`Typography P1 bold matches snapshot 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    numberOfLines={0}
+    style={
+      {
+        "color": "#000000",
+        "fontFamily": "OpenSans-Bold",
+        "fontSize": 16,
+        "lineHeight": 24,
+        "textDecorationLine": "none",
+      }
+    }
+  >
+    hello
+  </Text>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Typography P1 italic matches snapshot 1`] = `"hello"`;
+
+exports[`Typography P1 italic matches snapshot 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    numberOfLines={0}
+    style={
+      {
+        "color": "#000000",
+        "fontFamily": "OpenSans-Italic",
+        "fontSize": 16,
+        "lineHeight": 24,
+        "textDecorationLine": "none",
+      }
+    }
+  >
+    hello
+  </Text>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Typography P1 regular matches snapshot 1`] = `"hello"`;
+
+exports[`Typography P1 regular matches snapshot 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    numberOfLines={0}
+    style={
+      {
+        "color": "#000000",
+        "fontFamily": "OpenSans-Regular",
+        "fontSize": 16,
+        "lineHeight": 24,
+        "textDecorationLine": "none",
+      }
+    }
+  >
+    hello
+  </Text>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Typography P2 bold matches snapshot 1`] = `"hello"`;
+
+exports[`Typography P2 bold matches snapshot 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    numberOfLines={0}
+    style={
+      {
+        "color": "#000000",
+        "fontFamily": "OpenSans-Bold",
+        "fontSize": 14,
+        "lineHeight": 21,
+        "textDecorationLine": "none",
+      }
+    }
+  >
+    hello
+  </Text>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Typography P2 italic matches snapshot 1`] = `"hello"`;
+
+exports[`Typography P2 italic matches snapshot 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    numberOfLines={0}
+    style={
+      {
+        "color": "#000000",
+        "fontFamily": "OpenSans-Italic",
+        "fontSize": 14,
+        "lineHeight": 21,
+        "textDecorationLine": "none",
+      }
+    }
+  >
+    hello
+  </Text>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Typography P2 regular matches snapshot 1`] = `"hello"`;
+
+exports[`Typography P2 regular matches snapshot 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    numberOfLines={0}
+    style={
+      {
+        "color": "#000000",
+        "fontFamily": "OpenSans-Regular",
+        "fontSize": 14,
+        "lineHeight": 21,
+        "textDecorationLine": "none",
+      }
+    }
+  >
+    hello
+  </Text>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Typography P3 bold matches snapshot 1`] = `"hello"`;
+
+exports[`Typography P3 bold matches snapshot 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    numberOfLines={0}
+    style={
+      {
+        "color": "#000000",
+        "fontFamily": "OpenSans-Bold",
+        "fontSize": 12,
+        "lineHeight": 18,
+        "textDecorationLine": "none",
+      }
+    }
+  >
+    hello
+  </Text>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Typography P3 italic matches snapshot 1`] = `"hello"`;
+
+exports[`Typography P3 italic matches snapshot 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    numberOfLines={0}
+    style={
+      {
+        "color": "#000000",
+        "fontFamily": "OpenSans-Italic",
+        "fontSize": 12,
+        "lineHeight": 18,
+        "textDecorationLine": "none",
+      }
+    }
+  >
+    hello
+  </Text>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Typography P3 regular matches snapshot 1`] = `"hello"`;
+
+exports[`Typography P3 regular matches snapshot 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    numberOfLines={0}
+    style={
+      {
+        "color": "#000000",
+        "fontFamily": "OpenSans-Regular",
+        "fontSize": 12,
+        "lineHeight": 18,
+        "textDecorationLine": "none",
+      }
+    }
+  >
+    hello
+  </Text>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Typography Title large matches snapshot 1`] = `"hello"`;
+
+exports[`Typography Title large matches snapshot 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    accessibilityRole="header"
+    style={
+      {
+        "color": "#000000",
+        "fontFamily": "OpenSans-Bold",
+        "fontSize": 30,
+        "lineHeight": 39,
+        "textDecorationLine": "none",
+      }
+    }
+  >
+    hello
+  </Text>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Typography Title medium matches snapshot 1`] = `"hello"`;
+
+exports[`Typography Title medium matches snapshot 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    accessibilityRole="header"
+    style={
+      {
+        "color": "#000000",
+        "fontFamily": "OpenSans-Bold",
+        "fontSize": 26,
+        "lineHeight": 34,
+        "textDecorationLine": "none",
+      }
+    }
+  >
+    hello
+  </Text>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Typography Title small matches snapshot 1`] = `"hello"`;
+
+exports[`Typography Title small matches snapshot 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    accessibilityRole="header"
+    style={
+      {
+        "color": "#000000",
+        "fontFamily": "OpenSans-Bold",
+        "fontSize": 22,
+        "lineHeight": 29,
+        "textDecorationLine": "none",
+      }
+    }
+  >
+    hello
+  </Text>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Typography Title xlarge matches snapshot 1`] = `"hello"`;
+
+exports[`Typography Title xlarge matches snapshot 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    accessibilityRole="header"
+    style={
+      {
+        "color": "#000000",
+        "fontFamily": "OpenSans-Bold",
+        "fontSize": 32,
+        "lineHeight": 42,
+        "textDecorationLine": "none",
+      }
+    }
+  >
+    hello
+  </Text>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Typography Title xsmall matches snapshot 1`] = `"hello"`;
+
+exports[`Typography Title xsmall matches snapshot 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    accessibilityRole="header"
+    style={
+      {
+        "color": "#000000",
+        "fontFamily": "OpenSans-Bold",
+        "fontSize": 18,
+        "lineHeight": 23,
+        "textDecorationLine": "none",
+      }
+    }
+  >
+    hello
+  </Text>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Typography Title xxlarge matches snapshot 1`] = `"hello"`;
+
+exports[`Typography Title xxlarge matches snapshot 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    accessibilityRole="header"
+    style={
+      {
+        "color": "#000000",
+        "fontFamily": "OpenSans-Bold",
+        "fontSize": 36,
+        "lineHeight": 47,
+        "textDecorationLine": "none",
+      }
+    }
+  >
+    hello
+  </Text>
+</RNCSafeAreaProvider>
+`;
+
+exports[`Typography Title xxxlarge matches snapshot 1`] = `"hello"`;
+
+exports[`Typography Title xxxlarge matches snapshot 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    accessibilityRole="header"
+    style={
+      {
+        "color": "#000000",
+        "fontFamily": "OpenSans-Bold",
+        "fontSize": 46,
+        "lineHeight": 60,
+        "textDecorationLine": "none",
+      }
+    }
+  >
+    hello
+  </Text>
+</RNCSafeAreaProvider>
+`;

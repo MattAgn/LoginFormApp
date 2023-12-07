@@ -1,5 +1,7 @@
-import React from 'react';
+import { theme } from '#shared/view/theme/theme';
+import { ThemeProvider } from '@emotion/react';
 import { render, RenderOptions } from '@testing-library/react-native';
+import React from 'react';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 export const renderWithProviders = (
@@ -14,9 +16,11 @@ export const renderWithProviders = (
 
   return render(component, {
     wrapper: ({ children }) => (
-      <SafeAreaProvider initialMetrics={safeAreaInitialMetrics}>
-        {children}
-      </SafeAreaProvider>
+      <ThemeProvider theme={theme}>
+        <SafeAreaProvider initialMetrics={safeAreaInitialMetrics}>
+          {children}
+        </SafeAreaProvider>
+      </ThemeProvider>
     ),
     ...options,
   });

@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckBox Component renders the Checked icon when isChecked is true 1`] = `"test"`;
+
+exports[`CheckBox Component renders the Checked icon when isChecked is true 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    accessibilityLabel="test"
+    accessibilityRole="checkbox"
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": true,
+        "disabled": false,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    style={
+      {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <RNSVGSvgView
+      align="xMidYMid"
+      bbHeight="24"
+      bbWidth="24"
+      focusable={false}
+      height={24}
+      meetOrSlice={0}
+      minX={0}
+      minY={0}
+      style={
+        {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "flex": 0,
+          "height": 24,
+          "width": 24,
+        }
+      }
+      testID="CheckBox-icon"
+      vbHeight={24}
+      vbWidth={24}
+      width={24}
+    >
+      <RNSVGGroup
+        fill={
+          {
+            "payload": 4278190080,
+            "type": 0,
+          }
+        }
+      >
+        <RNSVGPath
+          d="M4.22222 2H19.7778C21 2 22 3 22 4.22222V19.7778C22 21 21 22 19.7778 22H4.22222C3 22 2 21 2 19.7778V4.22222C2 3 3 2 4.22222 2Z"
+          fill={
+            {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+          propList={
+            [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="M10.7105 16.29C10.3205 16.68 9.69045 16.68 9.30045 16.29L5.71045 12.7C5.5232 12.5132 5.41797 12.2595 5.41797 11.995C5.41797 11.7305 5.5232 11.4768 5.71045 11.29C6.10045 10.9 6.73045 10.9 7.12045 11.29L10.0005 14.17L16.8805 7.29C17.2705 6.9 17.9005 6.9 18.2905 7.29C18.6805 7.68 18.6805 8.31 18.2905 8.7L10.7105 16.29Z"
+          fill={
+            {
+              "payload": 4294967295,
+              "type": 0,
+            }
+          }
+          propList={
+            [
+              "fill",
+            ]
+          }
+        />
+      </RNSVGGroup>
+    </RNSVGSvgView>
+    <View
+      style={
+        {
+          "width": 8,
+        }
+      }
+    />
+    <View
+      style={{}}
+    >
+      <Text
+        numberOfLines={0}
+        style={
+          {
+            "color": "#000000",
+            "fontFamily": "OpenSans-Regular",
+            "fontSize": 16,
+            "lineHeight": 24,
+            "textDecorationLine": "none",
+          }
+        }
+      >
+        test
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
+
+exports[`CheckBox Component renders the label 1`] = `"test"`;
+
+exports[`CheckBox Component renders the label 2`] = `
+<RNCSafeAreaProvider
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    accessibilityLabel="test"
+    accessibilityRole="checkbox"
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": false,
+        "disabled": false,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    style={
+      {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <RNSVGSvgView
+      align="xMidYMid"
+      bbHeight="24"
+      bbWidth="24"
+      focusable={false}
+      height={24}
+      meetOrSlice={0}
+      minX={0}
+      minY={0}
+      style={
+        {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "flex": 0,
+          "height": 24,
+          "width": 24,
+        }
+      }
+      testID="UnCheckBox-icon"
+      vbHeight={24}
+      vbWidth={24}
+      width={24}
+    >
+      <RNSVGGroup
+        fill={
+          {
+            "payload": 4278190080,
+            "type": 0,
+          }
+        }
+      >
+        <RNSVGPath
+          d="M4.22222 2H19.7778C21 2 22 3 22 4.22222V19.7778C22 21 21 22 19.7778 22H4.22222C3 22 2 21 2 19.7778V4.22222C2 3 3 2 4.22222 2ZM5.14286 20H18.8571C19.4857 20 20 19.4857 20 18.8571V5.14286C20 4.51429 19.4857 4 18.8571 4H5.14286C4.51429 4 4 4.51429 4 5.14286V18.8571C4 19.4857 4.51429 20 5.14286 20Z"
+          fill={
+            {
+              "payload": 4291611852,
+              "type": 0,
+            }
+          }
+          propList={
+            [
+              "fill",
+            ]
+          }
+        />
+      </RNSVGGroup>
+    </RNSVGSvgView>
+    <View
+      style={
+        {
+          "width": 8,
+        }
+      }
+    />
+    <View
+      style={{}}
+    >
+      <Text
+        numberOfLines={0}
+        style={
+          {
+            "color": "#000000",
+            "fontFamily": "OpenSans-Regular",
+            "fontSize": 16,
+            "lineHeight": 24,
+            "textDecorationLine": "none",
+          }
+        }
+      >
+        test
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;
