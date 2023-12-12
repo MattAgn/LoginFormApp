@@ -7,9 +7,9 @@ import { Button } from '#shared/view/components/Button/Button';
 import { Spacer } from '#shared/view/components/Spacer/Spacer';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { StatusBar } from 'expo-status-bar';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import { useForm } from 'react-hook-form';
-import { StyleSheet, TextInput, View } from 'react-native';
+import { StyleSheet, Text, TextInput, View } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 export type HomeRouteParams = undefined;
@@ -22,7 +22,7 @@ export const useLoginForm = (onSubmit: (credentials: Credentials) => void) => {
       password: '',
     },
     resolver: zodResolver(loginValidatorSchema),
-    reValidateMode: 'onSubmit',
+    reValidateMode: 'onBlur',
   });
 
   const onFormSubmit = handleSubmit((formData) => {
@@ -32,11 +32,22 @@ export const useLoginForm = (onSubmit: (credentials: Credentials) => void) => {
 };
 
 export const Home = () => {
-  const onSubmit = (data: unknown) => console.warn('data', data);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const onSubmit = () => setIsLoggedIn(true);
 
   const { control, onFormSubmit } = useLoginForm(onSubmit);
 
   const passwordRef = useRef<TextInput>(null);
+
+  if (isLoggedIn) {
+    return (
+      <SafeAreaProvider>
+        <View style={styles.container}>
+          <Text>Hello Matt!</Text>
+        </View>
+      </SafeAreaProvider>
+    );
+  }
 
   return (
     <SafeAreaProvider>
