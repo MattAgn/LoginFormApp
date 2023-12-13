@@ -2741,7 +2741,7 @@
     pretty-format "^29.0.3"
     redent "^3.0.0"
 
-"@testing-library/react-native@^12.2.2":
+"@testing-library/react-native@^12.6":
   version "12.4.1"
   resolved "https://registry.yarnpkg.com/@testing-library/react-native/-/react-native-12.4.1.tgz#f15d0b6727e5e1af8bc35049aa95ce24b4420fe7"
   integrity sha512-HDHwGTJwBB9//Flv0HhApghFsUYZvaKTemXOs9PCMk6P8mUl4IJby8zAud8rq7bT/ZMnehgIak8QK+mJCH6+5Q==
@@ -5026,10 +5026,10 @@ eslint-plugin-react@^7.31.11:
     semver "^6.3.1"
     string.prototype.matchall "^4.0.8"
 
-eslint-plugin-testing-library@^5.11.0:
-  version "5.11.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-5.11.1.tgz#5b46cdae96d4a78918711c0b4792f90088e62d20"
-  integrity sha512-5eX9e1Kc2PqVRed3taaLnAAqPZGEX75C+M/rXzUAI3wIg/ZxzUm1OVAwfe/O+vE+6YXOLetSe9g5GKD2ecXipw==
+eslint-plugin-testing-library@^6.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-6.2.0.tgz#af3340b783c881eb19ec5ac6b3a4bfe8ab4a1f74"
+  integrity sha512-+LCYJU81WF2yQ+Xu4A135CgK8IszcFcyMF4sWkbiu6Oj+Nel0TrkZq/HvDw0/1WuO3dhDQsZA/OpEMGd0NfcUw==
   dependencies:
     "@typescript-eslint/utils" "^5.58.0"
 

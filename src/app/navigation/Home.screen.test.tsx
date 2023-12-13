@@ -15,11 +15,10 @@ test('[OLD WAY] form completion with error', async () => {
 
   fireEvent.changeText(EmailInput, 'mat@gmailcom');
   fireEvent.changeText(PasswordInput, 'azerty');
-  fireEvent.press(LoginButton);
+  fireEvent(PasswordInput, 'submitEditing');
 
   expect(await screen.findByText('Invalid email address')).toBeOnTheScreen();
 
-  fireEvent(EmailInput, 'clear');
   fireEvent.changeText(EmailInput, 'mat@gmail.com');
   fireEvent(EmailInput, 'blur');
 
@@ -32,27 +31,47 @@ test('[OLD WAY] form completion with error', async () => {
   expect(await screen.findByText('Hello Matt!')).toBeOnTheScreen();
 });
 
-test('[NEW WAY] form completion with error', async () => {
+test('[NEW WAY/FAKE TIMERS] form completion with error', async () => {
   renderWithProviders(<Home />);
   const EmailInput = screen.getByLabelText('Email address');
-  const PasswordInput = screen.getByLabelText('Password');
-  const LoginButton = screen.getByRole('button', { name: 'Login' });
 
-  userEvent.type(EmailInput, 'mat@gmailcom', {
+  await userEvent.type(EmailInput, 'mat@gmailcom', {
     submitEditing: true,
   });
-  userEvent.type(PasswordInput, 'azerty', { submitEditing: true });
+  await userEvent.type(screen.getByLabelText('Password'), 'azerty', {
+    submitEditing: true,
+  });
 
-  expect(await screen.findByText('Invalid email address')).toBeOnTheScreen();
+  expect(screen.getByText('Invalid email address')).toBeOnTheScreen();
 
-  userEvent.clear(EmailInput);
-  userEvent.type(EmailInput, 'mat@gmail.com');
+  await userEvent.clear(EmailInput);
+  await userEvent.type(EmailInput, 'mat@gmail.com');
 
-  await waitForElementToBeRemoved(() =>
-    screen.getByText('Invalid email address'),
-  );
+  await userEvent.press(screen.getByRole('button', { name: 'Login' }));
+  // await userEvent.longPress(screen.getByRole('button', { name: 'Login' }));
 
-  userEvent.press(LoginButton);
+  expect(screen.getByText('Hello Matt!')).toBeOnTheScreen();
+});
 
-  expect(await screen.findByText('Hello Matt!')).toBeOnTheScreen();
+test('[NEW WAY/REAL TIMERS] form completion with error', async () => {
+  jest.useRealTimers();
+  renderWithProviders(<Home />);
+  const EmailInput = screen.getByLabelText('Email address');
+
+  await userEvent.type(EmailInput, 'mat@gmailcom', {
+    submitEditing: true,
+  });
+  await userEvent.type(screen.getByLabelText('Password'), 'azerty', {
+    submitEditing: true,
+  });
+
+  expect(screen.getByText('Invalid email address')).toBeOnTheScreen();
+
+  await userEvent.clear(EmailInput);
+  await userEvent.type(EmailInput, 'mat@gmail.com');
+
+  await userEvent.press(screen.getByRole('button', { name: 'Login' }));
+  // await userEvent.longPress(screen.getByRole('button', { name: 'Login' }));
+
+  expect(screen.getByText('Hello Matt!')).toBeOnTheScreen();
 });

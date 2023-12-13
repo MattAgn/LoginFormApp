@@ -16,7 +16,7 @@ export type HomeRouteParams = undefined;
 
 export const useLoginForm = (onSubmit: (credentials: Credentials) => void) => {
   const loginValidatorSchema = loginFormValidator();
-  const { control, handleSubmit } = useForm<Credentials>({
+  const { control, handleSubmit, formState } = useForm<Credentials>({
     defaultValues: {
       email: '',
       password: '',
@@ -28,14 +28,14 @@ export const useLoginForm = (onSubmit: (credentials: Credentials) => void) => {
   const onFormSubmit = handleSubmit((formData) => {
     onSubmit(formData);
   });
-  return { control, onFormSubmit };
+  return { control, onFormSubmit, isFormValid: formState.isValid };
 };
 
 export const Home = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const onSubmit = () => setIsLoggedIn(true);
 
-  const { control, onFormSubmit } = useLoginForm(onSubmit);
+  const { control, onFormSubmit, isFormValid } = useLoginForm(onSubmit);
 
   const passwordRef = useRef<TextInput>(null);
 
